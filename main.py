@@ -25,5 +25,9 @@ if __name__ == "__main__":
 
     mw = MainWindow()
 
+    # Тут большая ошибка и надо переделать!!!
+    mw.show()
+    mw.hide()
+    
     mw.show()
     sys.exit(app.exec_())
