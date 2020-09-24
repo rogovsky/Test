@@ -7,7 +7,9 @@ Created on Thu Nov 21 17:53:07 2019
 
 from PyQt5.QtCore import pyqtSignal, Qt, QObject, QSettings
 from PyQt5.QtWidgets import QApplication, QMainWindow, QWidget
+
 from PyQt5 import uic
+
 
 
 class ControlWidget(QWidget):
