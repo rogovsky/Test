@@ -31,7 +31,7 @@ class BPMData(QObject):
         self.timer.start(self.def_time)
 
     def on_timer_update(self):
-        """   """
+        """  Here is the main event   """
         self.generate_bpm_data()
         self.data_ready.emit(self)
 
