@@ -31,9 +31,15 @@ class BPMData(QObject):
         self.timer.start(self.def_time)
 
     def on_timer_update(self):
-        """   """
+        """ We want new feature here! """
         self.generate_bpm_data()
         self.data_ready.emit(self)
+        
+        self.new_feature_on_update()
+    
+    def new_feature_on_update(self):
+        """ empy function now """
+        pass
 
     def generate_bpm_data(self):
         """   """
